@@ -1,4 +1,4 @@
-distancia = float(input("Distancia em metros : "))
+distancia = float(input('Distancia em metros : '))
 vm = float(input("Velocidade media em km/h : "))
 
 vm /= 3.6 

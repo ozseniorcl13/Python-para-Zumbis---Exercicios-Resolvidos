@@ -1,6 +1,7 @@
-preco = float(input("Preco : "))
-desconto = float(input("Desconto : "))
 
-valor = preco - preco*desconto/100
+preco = float(input('Preco : '))
+desconto = float(input('Desconto : '))
 
-print("Valor a pagar : ", valor)
+preco *= 1 - desconto / 100
+
+print('O novo preço é R$ {:.2f}'.format(preco))

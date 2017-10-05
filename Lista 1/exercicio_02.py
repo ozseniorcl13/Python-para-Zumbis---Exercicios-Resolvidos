@@ -1,5 +1,5 @@
-metros = float(input("Valor em metros : "))
+metros = float(input('Valor em metros : '))
 
 milimetros = metros * 1000
 
-print("Valor em milimetros : ", milimetros)
+print('{}m é igual a {}mm'.format(metros, milimetros))
